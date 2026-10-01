@@ -1,0 +1,8 @@
+# Heavy media delivered directly to the user, kept out of git
+*.mp4
+*.mov
+*.wav
+*.zip
+*.z0*
+*.ttf
+project_parts/
