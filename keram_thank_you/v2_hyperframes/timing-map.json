@@ -1,0 +1,120 @@
+{
+ "fps": 25,
+ "noise_floor_db": -74.32296752929688,
+ "threshold_db": -45.0,
+ "ranges": [
+  {
+   "src_start": 0.4,
+   "src_end": 6.32,
+   "text": "مَنْ لَا يَشْكُرُ النَّاسَ لَا يَشْكُرُ اللَّهِ That's what was the Prophet ﷺ said Whoever",
+   "dur": 5.92,
+   "out_start": 0,
+   "out_end": 5.92
+  },
+  {
+   "src_start": 6.68,
+   "src_end": 10.96,
+   "text": "Whoever doesn't thank the people Doesn't thank Allah ﷻ",
+   "dur": 4.28,
+   "out_start": 5.92,
+   "out_end": 10.2
+  },
+  {
+   "src_start": 15.84,
+   "src_end": 18.92,
+   "text": "So, how do you teach your children to thank you?",
+   "dur": 3.08,
+   "out_start": 10.2,
+   "out_end": 13.28
+  },
+  {
+   "src_start": 21.2,
+   "src_end": 23.48,
+   "text": "First, let them hear it from us.",
+   "dur": 2.28,
+   "out_start": 13.28,
+   "out_end": 15.56
+  },
+  {
+   "src_start": 27.84,
+   "src_end": 31.24,
+   "text": "When your child brings something, say thank you.",
+   "dur": 3.4,
+   "out_start": 15.56,
+   "out_end": 18.96
+  },
+  {
+   "src_start": 36.48,
+   "src_end": 39.2,
+   "text": "When they help you, say thank you for helping me.",
+   "dur": 2.72,
+   "out_start": 18.96,
+   "out_end": 21.68
+  },
+  {
+   "src_start": 74.88,
+   "src_end": 77.84,
+   "text": "Children learn a lot from what they see us do.",
+   "dur": 2.96,
+   "out_start": 21.68,
+   "out_end": 24.64
+  },
+  {
+   "src_start": 95.2,
+   "src_end": 98.96,
+   "text": "Then teach them to notice when someone makes something kind for them.",
+   "dur": 3.76,
+   "out_start": 24.64,
+   "out_end": 28.4
+  },
+  {
+   "src_start": 105.56,
+   "src_end": 108.16,
+   "text": "Mom made your food. Say thank you.",
+   "dur": 2.6,
+   "out_start": 28.4,
+   "out_end": 31.0
+  },
+  {
+   "src_start": 111.28,
+   "src_end": 113.52,
+   "text": "Dad helped you say thank you.",
+   "dur": 2.24,
+   "out_start": 31.0,
+   "out_end": 33.24
+  },
+  {
+   "src_start": 120.16,
+   "src_end": 126.8,
+   "text": "And remind them, when you thank the people for something good they do for you, Allah subhanahu wa ta 'ala loves death from you.",
+   "dur": 6.64,
+   "out_start": 33.24,
+   "out_end": 39.88
+  },
+  {
+   "src_start": 137.6,
+   "src_end": 142.08,
+   "text": "And you are rewarded for doing what the Prophet sallallahu alayhi wa sallam taught us to do.",
+   "dur": 4.48,
+   "out_start": 39.88,
+   "out_end": 44.36
+  },
+  {
+   "src_start": 168.76,
+   "src_end": 172.36,
+   "text": "So today don't just ask your child to say thank you",
+   "dur": 3.6,
+   "out_start": 44.36,
+   "out_end": 47.96
+  },
+  {
+   "src_start": 172.8,
+   "src_end": 174.08,
+   "text": "Say it to them first.",
+   "dur": 1.28,
+   "out_start": 47.96,
+   "out_end": 49.24
+  }
+ ],
+ "notes": "Energy onsets (source pauses are gated to digital silence); internal pauses >=0.26s removed; 0.08s head / 0.10s tail room; frame-quantised at 25fps. Splits removing <0.2s merged (no micro jump cuts)."
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8"><title>s7-cta</title></head>
+  <body>
+    <template>
+      <style>
+        @font-face{font-family:"Cairo";src:url("assets/fonts/Cairo.ttf") format("truetype");font-weight:200 1000;font-display:block}
+        #root { position:absolute; inset:0; overflow:hidden; --paper:#F3E4D0;--paper-dark:#E4CFB3;--paper-light:#FAF2E6;--cream:#FFFAF2;--ink:#142E43;--ink-soft:#3D566C;
+--accent-warm:#A7712F;--accent-warm-dark:#8A5A22;--accent-cool:#2C6CAF;--accent-cool-dark:#1F4A75;--accent-gold:#DFA962; background:var(--paper); font-family:"Cairo", sans-serif; color:var(--ink); }
+        
+        #s7-cta-bg { position:absolute; inset:0; background:radial-gradient(120% 80% at 50% 42%, var(--paper-light) 0%, var(--paper) 58%, var(--paper-dark) 100%); }
+        #s7-cta-logo { position:absolute; right:80px; top:30px; width:118px; height:auto; }
+        #s7-cta-grain { position:absolute; inset:0; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); background-size:256px 256px; opacity:.10; mix-blend-mode:multiply; }
+        #s7-cta-label { position:absolute; left:80px; top:56px; font-weight:700; font-size:30px; letter-spacing:.32em; color:var(--ink-soft); }
+        #s7-cta-label b { color:var(--accent-warm); font-weight:800; }
+        .s7-cta-svg { position:absolute; overflow:visible; }
+        .s7-cta-svg .ink { fill:none; stroke:var(--ink); stroke-width:7; stroke-linecap:round; stroke-linejoin:round; }
+        .s7-cta-row { position:absolute; left:80px; right:80px; display:flex; justify-content:center; align-items:baseline; flex-wrap:wrap; text-align:center; }
+        .s7-cta-row .t { display:inline-block; }
+        .s7-cta-mask { margin-top:28px; }
+        
+      </style>
+      <div data-hf-id="hf-4qa2" id="root" data-composition-id="s7-cta" data-width="1080" data-height="1920">
+        <div data-hf-id="hf-66jy" id="s7-cta-bg"></div>
+        <div data-hf-id="hf-7oy8" id="s7-cta-grain"></div>
+        <div data-hf-id="hf-ehgu" id="s7-cta-stage" data-layout-allow-overflow="" style="position:absolute;inset:0;transform:translateY(120px)">
+        <img data-hf-id="hf-utf1" id="s7-cta-logo" src="assets/keram_logo_gold.png" alt="KERAM">
+        <div data-hf-id="hf-gn2k" id="s7-cta-label">TODAY</div>
+        <svg data-hf-id="hf-t4il" class="s7-cta-svg" style="left:300px;top:330px;width:480px;height:330px" viewBox="0 0 480 330">
+          <path data-hf-id="hf-vx68" class="ink" d="M60 30 H420 a40 40 0 0 1 40 40 V200 a40 40 0 0 1 -40 40 H200 L110 310 L130 240 H60 a40 40 0 0 1 -40 -40 V70 a40 40 0 0 1 40 -40 Z" />
+          <path data-hf-id="hf-3p90" class="ink" style="stroke:var(--accent-warm)" d="M150 135 h180" />
+        </svg>
+        <div data-hf-id="hf-41eg" data-layout-allow-overlap="" class="s7-cta-row" id="s7-cta-say" style="top:760px;font-weight:800;font-size:96px;line-height:1">Say it to them</div>
+        <div data-hf-id="hf-3fqb" data-layout-allow-overlap="" class="s7-cta-row s7-cta-mask" style="top:860px"><span data-hf-id="hf-tirn" data-layout-allow-overlap="" class="t" id="s7-cta-first" style="font-weight:900;font-size:250px;line-height:1;color:var(--accent-warm)">FIRST.</span></div>
+        <div data-hf-id="hf-mlhc" data-layout-allow-overlap="" class="s7-cta-row" id="s7-cta-ar" dir="rtl" style="top:1200px;font-weight:800;font-size:80px;line-height:1.6;color:var(--accent-cool)">قُلْهَا لَهُمْ أَوَّلًا</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const draw = (sel, at, dur) => {
+            document.querySelectorAll(sel).forEach((p) => {
+              const L = p.getTotalLength();
+              tl.fromTo(p, { strokeDasharray: L, strokeDashoffset: L }, { strokeDashoffset: 0, duration: dur, ease: "power2.inOut" }, at);
+            });
+          };
+          const rise = (sel, at, d = 0.32, y = 70) => tl.fromTo(sel, { yPercent: y, opacity: 0 }, { yPercent: 0, opacity: 1, duration: d, ease: "power3.out" }, at);
+          const settle = (sel, at, d = 0.36) => tl.fromTo(sel, { scale: 1.18, opacity: 0 }, { scale: 1, opacity: 1, duration: d, ease: "expo.out" }, at);
+          draw("#root svg .ink", 0, 0.4);
+          rise("#s7-cta-say", 0, 0.24, 40);
+          settle("#s7-cta-first", 0.6, 0.36);
+          rise("#s7-cta-ar", 0.94, 0.3, 50);
+          window.__timelines["s7-cta"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

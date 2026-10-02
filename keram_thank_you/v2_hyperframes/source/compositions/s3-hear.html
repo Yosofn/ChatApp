@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8"><title>s3-hear</title></head>
+  <body>
+    <template>
+      <style>
+        @font-face{font-family:"Cairo";src:url("assets/fonts/Cairo.ttf") format("truetype");font-weight:200 1000;font-display:block}
+        #root { position:absolute; inset:0; overflow:hidden; --paper:#F3E4D0;--paper-dark:#E4CFB3;--paper-light:#FAF2E6;--cream:#FFFAF2;--ink:#142E43;--ink-soft:#3D566C;
+--accent-warm:#A7712F;--accent-warm-dark:#8A5A22;--accent-cool:#2C6CAF;--accent-cool-dark:#1F4A75;--accent-gold:#DFA962; background:var(--paper); font-family:"Cairo", sans-serif; color:var(--ink); }
+        
+        #s3-hear-bg { position:absolute; inset:0; background:radial-gradient(120% 80% at 50% 42%, var(--paper-light) 0%, var(--paper) 58%, var(--paper-dark) 100%); }
+        #s3-hear-logo { position:absolute; right:80px; top:80px; width:118px; height:auto; }
+        #s3-hear-grain { position:absolute; inset:0; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); background-size:256px 256px; opacity:.10; mix-blend-mode:multiply; }
+        #s3-hear-label { position:absolute; left:80px; top:106px; font-weight:700; font-size:30px; letter-spacing:.32em; color:var(--ink-soft); }
+        #s3-hear-label b { color:var(--accent-warm); font-weight:800; }
+        .s3-hear-svg { position:absolute; overflow:visible; }
+        .s3-hear-svg .ink { fill:none; stroke:var(--ink); stroke-width:7; stroke-linecap:round; stroke-linejoin:round; }
+        .s3-hear-row { position:absolute; left:80px; right:80px; display:flex; justify-content:center; align-items:baseline; flex-wrap:wrap; text-align:center; }
+        .s3-hear-row .t { display:inline-block; }
+        .s3-hear-mask { margin-top:28px; }
+        
+      </style>
+      <div data-hf-id="hf-e6d4" id="root" data-composition-id="s3-hear" data-width="1080" data-height="1920">
+        <div data-hf-id="hf-ga1k" id="s3-hear-bg"></div>
+        <div data-hf-id="hf-obb6" id="s3-hear-grain"></div>
+        <div data-hf-id="hf-zz8w" id="s3-hear-stage" data-layout-allow-overflow="" style="position:absolute;inset:0;transform:translateY(70px)">
+        <img data-hf-id="hf-gshr" id="s3-hear-logo" src="assets/keram_logo_gold.png" alt="KERAM">
+        <div data-hf-id="hf-usof" id="s3-hear-label"><b data-hf-id="hf-27a2">01</b> &#160;STEP ONE</div>
+        <svg data-hf-id="hf-l254" class="s3-hear-svg" style="left:250px;top:300px;width:580px;height:400px" viewBox="0 0 580 400">
+          <path data-hf-id="hf-aj5r" class="ink" d="M70 40 H470 a40 40 0 0 1 40 40 V230 a40 40 0 0 1 -40 40 H230 L140 340 L160 270 H70 a40 40 0 0 1 -40 -40 V80 a40 40 0 0 1 40 -40 Z" />
+          <path data-hf-id="hf-qe7s" class="ink arc" style="stroke:var(--accent-warm)" d="M540 120 q24 35 0 70" /><path data-hf-id="hf-dgxd" class="ink arc" style="stroke:var(--accent-warm)" d="M566 92 q44 63 0 126" />
+        </svg>
+        <div data-hf-id="hf-a6ud" id="s3-hear-quote" style="position:absolute;left:280px;top:378px;width:480px;text-align:center;font-weight:700;font-size:62px;color:var(--ink)">“Thank you.”</div>
+        <div data-hf-id="hf-dvag" data-layout-allow-overlap="" class="s3-hear-row s3-hear-mask" style="top:760px"><span data-hf-id="hf-nily" data-layout-allow-overlap="" class="t" id="s3-hear-let" style="font-weight:600;font-size:64px;color:var(--ink-soft)">let them</span></div>
+        <div data-hf-id="hf-o7qc" data-layout-allow-overlap="" class="s3-hear-row s3-hear-mask" style="top:850px;gap:0 36px"><span data-hf-id="hf-3eiw" data-layout-allow-overlap="" class="t" id="s3-hear-hear" style="font-weight:900;font-size:200px;line-height:1;color:var(--accent-warm)">HEAR</span><span data-hf-id="hf-c7xa" data-layout-allow-overlap="" class="t" id="s3-hear-it" style="font-weight:900;font-size:200px;line-height:1">IT</span></div>
+        <div data-hf-id="hf-csbx" data-layout-allow-overlap="" class="s3-hear-row s3-hear-mask" style="top:1100px"><span data-hf-id="hf-r19e" data-layout-allow-overlap="" class="t" id="s3-hear-us" style="font-weight:800;font-size:92px">from us.</span></div>
+        <div data-hf-id="hf-uoii" id="s3-hear-mod" style="position:absolute;left:110px;right:110px;top:1350px;height:170px;border:5px solid var(--ink);border-radius:36px;background:var(--cream);display:flex;align-items:center;gap:30px;padding:0 40px">
+          <svg data-hf-id="hf-6yms" style="width:110px;height:110px;flex:none;overflow:visible" viewBox="0 0 110 110"><g data-hf-id="hf-3tri" fill="none" stroke="#142E43" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"><rect data-hf-id="hf-z69w" x="10" y="44" width="90" height="58" rx="6" /><rect data-hf-id="hf-hjjn" x="4" y="28" width="102" height="20" rx="5" /><path data-hf-id="hf-4jhq" d="M55 28 V102" /><path data-hf-id="hf-ap05" d="M55 28 C40 4 16 12 28 24 C34 30 55 28 55 28 Z M55 28 C70 4 94 12 82 24 C76 30 55 28 55 28 Z" stroke="#A7712F" /></g></svg>
+          <div data-hf-id="hf-w38j" style="font-weight:700;font-size:50px;line-height:1.15;color:var(--ink)">When your child brings something…</div>
+        </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const draw = (sel, at, dur) => {
+            document.querySelectorAll(sel).forEach((p) => {
+              const L = p.getTotalLength();
+              tl.fromTo(p, { strokeDasharray: L, strokeDashoffset: L }, { strokeDashoffset: 0, duration: dur, ease: "power2.inOut" }, at);
+            });
+          };
+          const rise = (sel, at, d = 0.32, y = 70) => tl.fromTo(sel, { yPercent: y, opacity: 0 }, { yPercent: 0, opacity: 1, duration: d, ease: "power3.out" }, at);
+          const settle = (sel, at, d = 0.36) => tl.fromTo(sel, { scale: 1.18, opacity: 0 }, { scale: 1, opacity: 1, duration: d, ease: "expo.out" }, at);
+          draw("#root svg .ink:not(.arc)", 0, 0.5);
+          rise("#s3-hear-quote", 0.28, 0.3, 40);
+          rise("#s3-hear-let", 0, 0.28);
+          rise("#s3-hear-hear", 0.52, 0.32, 80);
+          rise("#s3-hear-it", 0.74, 0.28, 80);
+          draw("#root svg .arc", 0.52, 0.4);
+          rise("#s3-hear-us", 0.88, 0.3);
+          tl.fromTo("#s3-hear-mod", { y: 120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.36, ease: "power3.out" }, 1.52);
+          window.__timelines["s3-hear"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

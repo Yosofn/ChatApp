@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8"><title>s5-examples</title></head>
+  <body>
+    <template>
+      <style>
+        @font-face{font-family:"Cairo";src:url("assets/fonts/Cairo.ttf") format("truetype");font-weight:200 1000;font-display:block}
+        #root { position:absolute; inset:0; overflow:hidden; --paper:#F3E4D0;--paper-dark:#E4CFB3;--paper-light:#FAF2E6;--cream:#FFFAF2;--ink:#142E43;--ink-soft:#3D566C;
+--accent-warm:#A7712F;--accent-warm-dark:#8A5A22;--accent-cool:#2C6CAF;--accent-cool-dark:#1F4A75;--accent-gold:#DFA962; background:var(--paper); font-family:"Cairo", sans-serif; color:var(--ink); }
+        
+        #s5-examples-bg { position:absolute; inset:0; background:radial-gradient(120% 80% at 50% 42%, var(--paper-light) 0%, var(--paper) 58%, var(--paper-dark) 100%); }
+        #s5-examples-logo { position:absolute; right:80px; top:60px; width:118px; height:auto; }
+        #s5-examples-grain { position:absolute; inset:0; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); background-size:256px 256px; opacity:.10; mix-blend-mode:multiply; }
+        #s5-examples-label { position:absolute; left:80px; top:86px; font-weight:700; font-size:30px; letter-spacing:.32em; color:var(--ink-soft); }
+        #s5-examples-label b { color:var(--accent-warm); font-weight:800; }
+        .s5-examples-svg { position:absolute; overflow:visible; }
+        .s5-examples-svg .ink { fill:none; stroke:var(--ink); stroke-width:7; stroke-linecap:round; stroke-linejoin:round; }
+        .s5-examples-row { position:absolute; left:80px; right:80px; display:flex; justify-content:center; align-items:baseline; flex-wrap:wrap; text-align:center; }
+        .s5-examples-row .t { display:inline-block; }
+        .s5-examples-mask { margin-top:28px; }
+        .s5-examples-mod { position:absolute; left:90px; right:90px; height:400px; border:6px solid var(--ink); border-radius:44px; background:var(--cream);
+             display:flex; align-items:center; gap:40px; padding:0 54px; transform-origin:50% 50%; }
+        .s5-examples-ic { flex:none; width:150px; height:150px; display:grid; place-items:center; }
+        .s5-examples-q { font-weight:800; font-size:72px; line-height:1.1; }
+        .s5-examples-a { font-weight:900; font-size:86px; line-height:1.3; color:var(--accent-warm); }
+      </style>
+      <div data-hf-id="hf-0mk1" id="root" data-composition-id="s5-examples" data-width="1080" data-height="1920">
+        <div data-hf-id="hf-dhll" id="s5-examples-bg"></div>
+        <div data-hf-id="hf-pw9l" id="s5-examples-grain"></div>
+        <div data-hf-id="hf-w1qn" id="s5-examples-stage" data-layout-allow-overflow="" style="position:absolute;inset:0;transform:translateY(90px)">
+        <img data-hf-id="hf-nq74" id="s5-examples-logo" src="assets/keram_logo_gold.png" alt="KERAM">
+        <div data-hf-id="hf-l27v" id="s5-examples-label">NOTICE <b data-hf-id="hf-cufq">·</b> THEN SAY IT</div>
+        <div data-hf-id="hf-qt4b" id="s5-examples-m1" class="s5-examples-mod" style="top:330px">
+          <div data-hf-id="hf-7nr5" class="s5-examples-ic"><svg data-hf-id="hf-wdy8" viewBox="0 0 140 140" style="width:140px;height:140px;overflow:visible"><g data-hf-id="hf-7rvj" fill="none" stroke="#142E43" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path data-hf-id="hf-c3nl" d="M12 66 H128 C126 104 100 124 70 124 C40 124 14 104 12 66 Z" /><path data-hf-id="hf-8945" d="M46 52 c-8 -14 8 -20 0 -34 M70 52 c-8 -14 8 -20 0 -34 M94 52 c-8 -14 8 -20 0 -34" stroke="#A7712F" /></g></svg></div>
+          <div data-hf-id="hf-yeow"><div data-hf-id="hf-4nm2" class="s5-examples-q">Mum made your food?</div><div data-hf-id="hf-116p" class="s5-examples-a" id="s5-examples-a1">“Thank you.”</div></div>
+        </div>
+        <div data-hf-id="hf-q44z" id="s5-examples-m2" class="s5-examples-mod" style="top:830px">
+          <div data-hf-id="hf-wcnp" class="s5-examples-ic"><svg data-hf-id="hf-7lw8" viewBox="0 0 140 140" style="width:140px;height:140px;overflow:visible"><g data-hf-id="hf-0spr" fill="none" stroke="#142E43" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><rect data-hf-id="hf-cflm" x="34" y="42" width="72" height="56" rx="6" /><path data-hf-id="hf-yqgd" d="M34 62 H106" /><path data-hf-id="hf-byvd" d="M8 110 C22 98 30 96 34 96 M132 110 C118 98 110 96 106 96" /><path data-hf-id="hf-snt0" d="M70 30 c-10 -8 -16 -13 -16 -19 a7 7 0 0 1 16 -3 a7 7 0 0 1 16 3 c0 6 -6 11 -16 19 z" stroke="#A7712F" /></g></svg></div>
+          <div data-hf-id="hf-y7yw"><div data-hf-id="hf-9il5" class="s5-examples-q">Dad helped you?</div><div data-hf-id="hf-cnk6" class="s5-examples-a" id="s5-examples-a2">“Thank you.”</div></div>
+        </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const draw = (sel, at, dur) => {
+            document.querySelectorAll(sel).forEach((p) => {
+              const L = p.getTotalLength();
+              tl.fromTo(p, { strokeDasharray: L, strokeDashoffset: L }, { strokeDashoffset: 0, duration: dur, ease: "power2.inOut" }, at);
+            });
+          };
+          const rise = (sel, at, d = 0.32, y = 70) => tl.fromTo(sel, { yPercent: y, opacity: 0 }, { yPercent: 0, opacity: 1, duration: d, ease: "power3.out" }, at);
+          const settle = (sel, at, d = 0.36) => tl.fromTo(sel, { scale: 1.18, opacity: 0 }, { scale: 1, opacity: 1, duration: d, ease: "expo.out" }, at);
+          tl.fromTo("#s5-examples-m1", { y: 160, opacity: 0 }, { y: 0, opacity: 1, duration: 0.36, ease: "power3.out" }, 0);
+          rise("#s5-examples-a1", 1.8, 0.28, 60);
+          tl.fromTo("#s5-examples-m2", { y: 160, opacity: 0 }, { y: 0, opacity: 1, duration: 0.36, ease: "power3.out" }, 2.6);
+          tl.to("#s5-examples-m1", { scale: 0.94, borderColor: "#3D566C", duration: 0.3, ease: "power2.out" }, 2.6);
+          tl.to("#s5-examples-a1", { color: "#2C6CAF", duration: 0.3 }, 2.6);
+          tl.to("#s5-examples-m2", { borderColor: "#A7712F", duration: 0.2 }, 2.8);
+          rise("#s5-examples-a2", 4.04, 0.28, 60);
+          window.__timelines["s5-examples"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

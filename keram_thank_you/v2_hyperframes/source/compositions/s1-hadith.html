@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8"><title>s1-hadith</title></head>
+  <body>
+    <template>
+      <style>
+        @font-face{font-family:"Cairo";src:url("assets/fonts/Cairo.ttf") format("truetype");font-weight:200 1000;font-display:block}
+        #root { position:absolute; inset:0; overflow:hidden; --paper:#F3E4D0;--paper-dark:#E4CFB3;--paper-light:#FAF2E6;--cream:#FFFAF2;--ink:#142E43;--ink-soft:#3D566C;
+--accent-warm:#A7712F;--accent-warm-dark:#8A5A22;--accent-cool:#2C6CAF;--accent-cool-dark:#1F4A75;--accent-gold:#DFA962; background:var(--paper); font-family:"Cairo", sans-serif; color:var(--ink); }
+        #root { --paper:#2C6CAF;--paper-light:#3A7CC0;--paper-dark:#142E43;--cream:#1F4A75;--ink:#FFFFFF;--ink-soft:#D9E6F3;
+--accent-warm:#E3B374;--accent-warm-dark:#C08847;--accent-cool:#9CCBF2; }
+        #s1-hadith-bg { position:absolute; inset:0; background:linear-gradient(180deg, #2C6CAF 0%, #23578E 45%, #142E43 100%); }
+        #s1-hadith-logo { position:absolute; right:80px; top:0px; width:118px; height:auto; }
+        #s1-hadith-grain { position:absolute; inset:0; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); background-size:256px 256px; opacity:.06; mix-blend-mode:soft-light; }
+        #s1-hadith-label { position:absolute; left:80px; top:26px; font-weight:700; font-size:30px; letter-spacing:.32em; color:var(--ink-soft); }
+        #s1-hadith-label b { color:var(--accent-warm); font-weight:800; }
+        .s1-hadith-svg { position:absolute; overflow:visible; }
+        .s1-hadith-svg .ink { fill:none; stroke:var(--ink); stroke-width:7; stroke-linecap:round; stroke-linejoin:round; }
+        .s1-hadith-row { position:absolute; left:80px; right:80px; display:flex; justify-content:center; align-items:baseline; flex-wrap:wrap; text-align:center; }
+        .s1-hadith-row .t { display:inline-block; }
+        .s1-hadith-mask { margin-top:28px; }
+        
+      </style>
+      <div data-hf-id="hf-hgfy" id="root" data-composition-id="s1-hadith" data-width="1080" data-height="1920">
+        <div data-hf-id="hf-v9d2" id="s1-hadith-bg"></div>
+        <div data-hf-id="hf-489k" id="s1-hadith-grain"></div>
+        <div data-hf-id="hf-kuyj" id="s1-hadith-stage" data-layout-allow-overflow="" style="position:absolute;inset:0;transform:translateY(150px)">
+        <img data-hf-id="hf-oqb8" id="s1-hadith-logo" src="assets/keram_logo_white.png" alt="KERAM">
+        <div data-hf-id="hf-in06" id="s1-hadith-label">HADITH <b data-hf-id="hf-cufq">·</b> THE PROPHET ﷺ</div>
+        <svg data-hf-id="hf-43qx" class="s1-hadith-svg" style="left:300px;top:330px;width:480px;height:300px" viewBox="0 0 480 300">
+          <path data-hf-id="hf-nsa1" class="ink" d="M240 70 C190 40 110 34 30 50 L30 250 C110 234 190 240 240 270 C290 240 370 234 450 250 L450 50 C370 34 290 40 240 70 Z" />
+          <path data-hf-id="hf-9io0" class="ink" d="M240 70 L240 270" />
+          <path data-hf-id="hf-3q9a" class="ink" style="stroke-width:4;opacity:.55" d="M80 110 C130 102 180 104 210 116 M80 150 C130 142 180 144 210 156 M270 116 C300 104 350 102 400 110 M270 156 C300 144 350 142 400 150" />
+        </svg>
+        <div data-hf-id="hf-xejr" data-layout-allow-overlap="" class="s1-hadith-row s1-hadith-mask" id="s1-hadith-l1" dir="rtl" style="top:700px">
+          <span data-hf-id="hf-ubrp" class="t" style="font-weight:800;font-size:112px;line-height:1.55">مَنْ لَا <span data-hf-id="hf-hdp6" style="color:var(--accent-warm)">يَشْكُرِ</span> النَّاسَ</span>
+        </div>
+        <div data-hf-id="hf-zbv4" data-layout-allow-overlap="" class="s1-hadith-row s1-hadith-mask" dir="rtl" style="top:900px;gap:0 34px">
+          <span data-hf-id="hf-jkwa" data-layout-allow-overlap="" class="t" id="s1-hadith-w1" style="font-weight:800;font-size:112px;line-height:1.55">لَا</span>
+          <span data-hf-id="hf-dpnj" data-layout-allow-overlap="" class="t" id="s1-hadith-w2" style="font-weight:800;font-size:112px;line-height:1.55;color:var(--accent-warm)">يَشْكُرِ</span>
+          <span data-hf-id="hf-yn8e" data-layout-allow-overlap="" class="t" id="s1-hadith-w3" style="font-weight:800;font-size:112px;line-height:1.55">اللَّهَ</span>
+        </div>
+        <div data-hf-id="hf-a0l9" id="s1-hadith-rule" style="position:absolute;left:390px;top:1150px;width:300px;height:8px;border-radius:8px;background:var(--accent-warm);transform-origin:50% 50%"></div>
+        <div data-hf-id="hf-uk49" data-layout-allow-overlap="" class="s1-hadith-row" id="s1-hadith-attr" style="top:1220px;font-weight:600;font-size:50px;color:var(--ink-soft)">That’s what the Prophet ﷺ said</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const draw = (sel, at, dur) => {
+            document.querySelectorAll(sel).forEach((p) => {
+              const L = p.getTotalLength();
+              tl.fromTo(p, { strokeDasharray: L, strokeDashoffset: L }, { strokeDashoffset: 0, duration: dur, ease: "power2.inOut" }, at);
+            });
+          };
+          const rise = (sel, at, d = 0.32, y = 70) => tl.fromTo(sel, { yPercent: y, opacity: 0 }, { yPercent: 0, opacity: 1, duration: d, ease: "power3.out" }, at);
+          const settle = (sel, at, d = 0.36) => tl.fromTo(sel, { scale: 1.18, opacity: 0 }, { scale: 1, opacity: 1, duration: d, ease: "expo.out" }, at);
+          draw("#root svg .ink", 0, 0.55);
+          rise("#s1-hadith-l1 .t", 0, 0.30, 60);
+          rise("#s1-hadith-w1", 0.04);
+          rise("#s1-hadith-w2", 0.54);
+          rise("#s1-hadith-w3", 0.92);
+          tl.fromTo("#s1-hadith-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "power3.out" }, 1.36);
+          rise("#s1-hadith-attr", 2.42, 0.34, 40);
+          window.__timelines["s1-hadith"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

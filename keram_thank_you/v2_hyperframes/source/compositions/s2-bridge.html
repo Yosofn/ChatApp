@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8"><title>s2-bridge</title></head>
+  <body>
+    <template>
+      <style>
+        @font-face{font-family:"Cairo";src:url("assets/fonts/Cairo.ttf") format("truetype");font-weight:200 1000;font-display:block}
+        #root { position:absolute; inset:0; overflow:hidden; --paper:#F3E4D0;--paper-dark:#E4CFB3;--paper-light:#FAF2E6;--cream:#FFFAF2;--ink:#142E43;--ink-soft:#3D566C;
+--accent-warm:#A7712F;--accent-warm-dark:#8A5A22;--accent-cool:#2C6CAF;--accent-cool-dark:#1F4A75;--accent-gold:#DFA962; background:var(--paper); font-family:"Cairo", sans-serif; color:var(--ink); }
+        
+        #s2-bridge-bg { position:absolute; inset:0; background:radial-gradient(120% 80% at 50% 42%, var(--paper-light) 0%, var(--paper) 58%, var(--paper-dark) 100%); }
+        #s2-bridge-logo { position:absolute; right:80px; top:30px; width:118px; height:auto; }
+        #s2-bridge-grain { position:absolute; inset:0; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); background-size:256px 256px; opacity:.10; mix-blend-mode:multiply; }
+        #s2-bridge-label { position:absolute; left:80px; top:56px; font-weight:700; font-size:30px; letter-spacing:.32em; color:var(--ink-soft); }
+        #s2-bridge-label b { color:var(--accent-warm); font-weight:800; }
+        .s2-bridge-svg { position:absolute; overflow:visible; }
+        .s2-bridge-svg .ink { fill:none; stroke:var(--ink); stroke-width:7; stroke-linecap:round; stroke-linejoin:round; }
+        .s2-bridge-row { position:absolute; left:80px; right:80px; display:flex; justify-content:center; align-items:baseline; flex-wrap:wrap; text-align:center; }
+        .s2-bridge-row .t { display:inline-block; }
+        .s2-bridge-mask { margin-top:28px; }
+        
+      </style>
+      <div data-hf-id="hf-o6ao" id="root" data-composition-id="s2-bridge" data-width="1080" data-height="1920">
+        <div data-hf-id="hf-fl9k" id="s2-bridge-bg"></div>
+        <div data-hf-id="hf-mg2a" id="s2-bridge-grain"></div>
+        <div data-hf-id="hf-ho5y" id="s2-bridge-stage" data-layout-allow-overflow="" style="position:absolute;inset:0;transform:translateY(120px)">
+        <img data-hf-id="hf-y6hj" id="s2-bridge-logo" src="assets/keram_logo_gold.png" alt="KERAM">
+        <div data-hf-id="hf-yayu" id="s2-bridge-label">WHAT IT MEANS</div>
+        <div data-hf-id="hf-wmr1" data-layout-allow-overlap="" class="s2-bridge-row" id="s2-bridge-ctx" style="top:330px;font-weight:600;font-size:50px;color:var(--ink-soft)">Whoever doesn’t thank</div>
+        <div data-hf-id="hf-o5wi" id="s2-bridge-people" style="position:absolute;left:290px;top:430px;width:500px;height:150px;border:7px solid var(--ink);border-radius:80px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:84px;letter-spacing:.06em;background:var(--cream)">PEOPLE</div>
+        <svg data-hf-id="hf-pxfl" class="s2-bridge-svg" style="left:500px;top:600px;width:80px;height:340px" viewBox="0 0 80 340">
+          <path data-hf-id="hf-7sap" class="ink" d="M40 0 L40 320" /><path data-hf-id="hf-hcac" class="ink" d="M12 290 L40 322 L68 290" />
+        </svg>
+        <div data-hf-id="hf-l9sg" id="s2-bridge-verb" style="position:absolute;left:600px;top:720px;font-weight:700;font-size:48px;color:var(--ink-soft)">doesn’t thank</div>
+        <div data-hf-id="hf-5d1r" data-layout-allow-overlap="" class="s2-bridge-row" id="s2-bridge-allah" style="top:960px;font-weight:900;font-size:220px;line-height:1;color:var(--accent-warm);letter-spacing:.02em">ALLAH</div>
+        <div data-hf-id="hf-uprj" data-layout-allow-overlap="" class="s2-bridge-row" id="s2-bridge-swt" dir="rtl" style="top:1210px;font-weight:800;font-size:84px;line-height:1.6;color:var(--accent-cool)">سُبْحَانَهُ وَتَعَالَى</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const draw = (sel, at, dur) => {
+            document.querySelectorAll(sel).forEach((p) => {
+              const L = p.getTotalLength();
+              tl.fromTo(p, { strokeDasharray: L, strokeDashoffset: L }, { strokeDashoffset: 0, duration: dur, ease: "power2.inOut" }, at);
+            });
+          };
+          const rise = (sel, at, d = 0.32, y = 70) => tl.fromTo(sel, { yPercent: y, opacity: 0 }, { yPercent: 0, opacity: 1, duration: d, ease: "power3.out" }, at);
+          const settle = (sel, at, d = 0.36) => tl.fromTo(sel, { scale: 1.18, opacity: 0 }, { scale: 1, opacity: 1, duration: d, ease: "expo.out" }, at);
+          rise("#s2-bridge-ctx", 0, 0.28, 40);
+          settle("#s2-bridge-people", 0, 0.32);
+          draw("#root svg .ink", 0.24, 0.5);
+          rise("#s2-bridge-verb", 0.62, 0.28, 40);
+          settle("#s2-bridge-allah", 1.0, 0.4);
+          rise("#s2-bridge-swt", 1.26, 0.32, 50);
+          window.__timelines["s2-bridge"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,1241 @@
+{
+ "language": "en+ar",
+ "timebase": "output seconds (post-trim); src_* = rawreel.mp4 seconds",
+ "words": [
+  {
+   "text": "مَنْ",
+   "start": 0.0,
+   "end": 0.22,
+   "src_start": 0.4,
+   "src_end": 0.62,
+   "confidence": 0.84,
+   "review": "Hadith pronunciation: one ASR pass heard يَشْكُرُ/اللَّهِ; displayed text follows the canonical tashkeel — verify by ear"
+  },
+  {
+   "text": "لَا",
+   "start": 0.22,
+   "end": 0.38,
+   "src_start": 0.62,
+   "src_end": 0.78,
+   "confidence": 0.95,
+   "review": "Hadith pronunciation: one ASR pass heard يَشْكُرُ/اللَّهِ; displayed text follows the canonical tashkeel — verify by ear"
+  },
+  {
+   "text": "يَشْكُرِ",
+   "start": 0.38,
+   "end": 0.82,
+   "src_start": 0.78,
+   "src_end": 1.22,
+   "confidence": 0.9,
+   "review": "Hadith pronunciation: one ASR pass heard يَشْكُرُ/اللَّهِ; displayed text follows the canonical tashkeel — verify by ear"
+  },
+  {
+   "text": "النَّاسَ",
+   "start": 0.82,
+   "end": 1.24,
+   "src_start": 1.22,
+   "src_end": 1.64,
+   "confidence": 0.98,
+   "review": "Hadith pronunciation: one ASR pass heard يَشْكُرُ/اللَّهِ; displayed text follows the canonical tashkeel — verify by ear"
+  },
+  {
+   "text": "لَا",
+   "start": 1.24,
+   "end": 1.74,
+   "src_start": 1.64,
+   "src_end": 2.14,
+   "confidence": 0.96,
+   "review": "Hadith pronunciation: one ASR pass heard يَشْكُرُ/اللَّهِ; displayed text follows the canonical tashkeel — verify by ear"
+  },
+  {
+   "text": "يَشْكُرِ",
+   "start": 1.74,
+   "end": 2.12,
+   "src_start": 2.14,
+   "src_end": 2.52,
+   "confidence": 0.99,
+   "review": "Hadith pronunciation: one ASR pass heard يَشْكُرُ/اللَّهِ; displayed text follows the canonical tashkeel — verify by ear"
+  },
+  {
+   "text": "اللَّهَ",
+   "start": 2.12,
+   "end": 2.52,
+   "src_start": 2.52,
+   "src_end": 2.92,
+   "confidence": 0.75,
+   "review": "Hadith pronunciation: one ASR pass heard يَشْكُرُ/اللَّهِ; displayed text follows the canonical tashkeel — verify by ear"
+  },
+  {
+   "text": "That's",
+   "start": 2.56,
+   "end": 3.0,
+   "src_start": 2.96,
+   "src_end": 3.4,
+   "confidence": 0.99
+  },
+  {
+   "text": "what",
+   "start": 3.0,
+   "end": 3.16,
+   "src_start": 3.4,
+   "src_end": 3.56,
+   "confidence": 1.0
+  },
+  {
+   "text": "was",
+   "start": 3.16,
+   "end": 3.44,
+   "src_start": 3.56,
+   "src_end": 3.84,
+   "confidence": 0.97
+  },
+  {
+   "text": "the",
+   "start": 3.44,
+   "end": 3.62,
+   "src_start": 3.84,
+   "src_end": 4.02,
+   "confidence": 1.0
+  },
+  {
+   "text": "Prophet",
+   "start": 3.62,
+   "end": 3.86,
+   "src_start": 4.02,
+   "src_end": 4.26,
+   "confidence": 0.98
+  },
+  {
+   "text": "ﷺ",
+   "start": 3.86,
+   "end": 4.58,
+   "src_start": 4.26,
+   "src_end": 4.98,
+   "confidence": 0.42,
+   "review": "low ASR confidence"
+  },
+  {
+   "text": "said.",
+   "start": 4.58,
+   "end": 5.54,
+   "src_start": 4.98,
+   "src_end": 5.94,
+   "confidence": 1.0
+  },
+  {
+   "text": "Whoever",
+   "start": 5.82,
+   "end": 6.08,
+   "src_start": 6.22,
+   "src_end": 6.84,
+   "confidence": 0.99
+  },
+  {
+   "text": "doesn't",
+   "start": 6.08,
+   "end": 6.72,
+   "src_start": 6.84,
+   "src_end": 7.48,
+   "confidence": 1.0
+  },
+  {
+   "text": "thank",
+   "start": 6.72,
+   "end": 7.02,
+   "src_start": 7.48,
+   "src_end": 7.78,
+   "confidence": 1.0
+  },
+  {
+   "text": "the",
+   "start": 7.02,
+   "end": 7.4,
+   "src_start": 7.78,
+   "src_end": 8.16,
+   "confidence": 1.0
+  },
+  {
+   "text": "people",
+   "start": 7.4,
+   "end": 7.74,
+   "src_start": 8.16,
+   "src_end": 8.5,
+   "confidence": 1.0
+  },
+  {
+   "text": "doesn't",
+   "start": 7.74,
+   "end": 8.36,
+   "src_start": 8.5,
+   "src_end": 9.12,
+   "confidence": 0.72
+  },
+  {
+   "text": "thank",
+   "start": 8.36,
+   "end": 8.74,
+   "src_start": 9.12,
+   "src_end": 9.5,
+   "confidence": 1.0
+  },
+  {
+   "text": "Allah",
+   "start": 8.74,
+   "end": 9.0,
+   "src_start": 9.5,
+   "src_end": 9.76,
+   "confidence": 0.99
+  },
+  {
+   "text": "subhanahu",
+   "start": 9.0,
+   "end": 9.58,
+   "src_start": 9.76,
+   "src_end": 10.34,
+   "confidence": 0.68
+  },
+  {
+   "text": "wa",
+   "start": 9.58,
+   "end": 9.66,
+   "src_start": 10.34,
+   "src_end": 10.42,
+   "confidence": 1.0
+  },
+  {
+   "text": "ta",
+   "start": 9.66,
+   "end": 9.78,
+   "src_start": 10.42,
+   "src_end": 10.54,
+   "confidence": 0.99
+  },
+  {
+   "text": "'ala.",
+   "start": 9.78,
+   "end": 9.94,
+   "src_start": 10.54,
+   "src_end": 10.7,
+   "confidence": 1.0
+  },
+  {
+   "text": "So",
+   "start": 10.1,
+   "end": 10.42,
+   "src_start": 10.86,
+   "src_end": 16.06,
+   "confidence": 1.0
+  },
+  {
+   "text": "how",
+   "start": 10.42,
+   "end": 10.8,
+   "src_start": 16.06,
+   "src_end": 16.44,
+   "confidence": 0.72
+  },
+  {
+   "text": "do",
+   "start": 10.8,
+   "end": 10.96,
+   "src_start": 16.44,
+   "src_end": 16.6,
+   "confidence": 1.0
+  },
+  {
+   "text": "you",
+   "start": 10.96,
+   "end": 11.12,
+   "src_start": 16.6,
+   "src_end": 16.76,
+   "confidence": 1.0
+  },
+  {
+   "text": "teach",
+   "start": 11.12,
+   "end": 11.46,
+   "src_start": 16.76,
+   "src_end": 17.1,
+   "confidence": 1.0
+  },
+  {
+   "text": "your",
+   "start": 11.46,
+   "end": 11.58,
+   "src_start": 17.1,
+   "src_end": 17.22,
+   "confidence": 1.0
+  },
+  {
+   "text": "children",
+   "start": 11.58,
+   "end": 12.04,
+   "src_start": 17.22,
+   "src_end": 17.68,
+   "confidence": 1.0
+  },
+  {
+   "text": "to",
+   "start": 12.04,
+   "end": 12.4,
+   "src_start": 17.68,
+   "src_end": 18.04,
+   "confidence": 1.0
+  },
+  {
+   "text": "thank",
+   "start": 12.4,
+   "end": 12.76,
+   "src_start": 18.04,
+   "src_end": 18.4,
+   "confidence": 1.0
+  },
+  {
+   "text": "you?",
+   "start": 12.76,
+   "end": 13.02,
+   "src_start": 18.4,
+   "src_end": 18.66,
+   "confidence": 1.0
+  },
+  {
+   "text": "First,",
+   "start": 13.18,
+   "end": 13.74,
+   "src_start": 18.82,
+   "src_end": 21.66,
+   "confidence": 1.0
+  },
+  {
+   "text": "let",
+   "start": 13.86,
+   "end": 14.08,
+   "src_start": 21.78,
+   "src_end": 22.0,
+   "confidence": 1.0
+  },
+  {
+   "text": "them",
+   "start": 14.08,
+   "end": 14.38,
+   "src_start": 22.0,
+   "src_end": 22.3,
+   "confidence": 1.0
+  },
+  {
+   "text": "hear",
+   "start": 14.38,
+   "end": 14.6,
+   "src_start": 22.3,
+   "src_end": 22.52,
+   "confidence": 1.0
+  },
+  {
+   "text": "it",
+   "start": 14.6,
+   "end": 14.74,
+   "src_start": 22.52,
+   "src_end": 22.66,
+   "confidence": 1.0
+  },
+  {
+   "text": "from",
+   "start": 14.74,
+   "end": 14.96,
+   "src_start": 22.66,
+   "src_end": 22.88,
+   "confidence": 1.0
+  },
+  {
+   "text": "us.",
+   "start": 14.96,
+   "end": 15.2,
+   "src_start": 22.88,
+   "src_end": 23.12,
+   "confidence": 1.0
+  },
+  {
+   "text": "When",
+   "start": 15.38,
+   "end": 15.66,
+   "src_start": 23.3,
+   "src_end": 27.94,
+   "confidence": 1.0
+  },
+  {
+   "text": "your",
+   "start": 15.66,
+   "end": 15.82,
+   "src_start": 27.94,
+   "src_end": 28.1,
+   "confidence": 1.0
+  },
+  {
+   "text": "child",
+   "start": 15.82,
+   "end": 16.16,
+   "src_start": 28.1,
+   "src_end": 28.44,
+   "confidence": 1.0
+  },
+  {
+   "text": "brings",
+   "start": 16.16,
+   "end": 16.44,
+   "src_start": 28.44,
+   "src_end": 28.72,
+   "confidence": 0.98
+  },
+  {
+   "text": "something,",
+   "start": 16.44,
+   "end": 17.04,
+   "src_start": 28.72,
+   "src_end": 29.32,
+   "confidence": 1.0
+  },
+  {
+   "text": "say",
+   "start": 17.3,
+   "end": 17.86,
+   "src_start": 29.58,
+   "src_end": 30.14,
+   "confidence": 1.0
+  },
+  {
+   "text": "thank",
+   "start": 17.86,
+   "end": 18.42,
+   "src_start": 30.14,
+   "src_end": 30.7,
+   "confidence": 0.73
+  },
+  {
+   "text": "you.",
+   "start": 18.42,
+   "end": 18.72,
+   "src_start": 30.7,
+   "src_end": 31.0,
+   "confidence": 1.0
+  },
+  {
+   "text": "When",
+   "start": 18.82,
+   "end": 19.1,
+   "src_start": 31.1,
+   "src_end": 36.62,
+   "confidence": 1.0
+  },
+  {
+   "text": "they",
+   "start": 19.1,
+   "end": 19.26,
+   "src_start": 36.62,
+   "src_end": 36.78,
+   "confidence": 1.0
+  },
+  {
+   "text": "help",
+   "start": 19.26,
+   "end": 19.52,
+   "src_start": 36.78,
+   "src_end": 37.04,
+   "confidence": 1.0
+  },
+  {
+   "text": "you,",
+   "start": 19.52,
+   "end": 19.78,
+   "src_start": 37.04,
+   "src_end": 37.3,
+   "confidence": 1.0
+  },
+  {
+   "text": "say",
+   "start": 19.88,
+   "end": 20.26,
+   "src_start": 37.4,
+   "src_end": 37.78,
+   "confidence": 1.0
+  },
+  {
+   "text": "thank",
+   "start": 20.26,
+   "end": 20.62,
+   "src_start": 37.78,
+   "src_end": 38.14,
+   "confidence": 1.0
+  },
+  {
+   "text": "you",
+   "start": 20.62,
+   "end": 20.78,
+   "src_start": 38.14,
+   "src_end": 38.3,
+   "confidence": 1.0
+  },
+  {
+   "text": "for",
+   "start": 20.78,
+   "end": 20.92,
+   "src_start": 38.3,
+   "src_end": 38.44,
+   "confidence": 1.0
+  },
+  {
+   "text": "helping",
+   "start": 20.92,
+   "end": 21.2,
+   "src_start": 38.44,
+   "src_end": 38.72,
+   "confidence": 1.0
+  },
+  {
+   "text": "me.",
+   "start": 21.2,
+   "end": 21.46,
+   "src_start": 38.72,
+   "src_end": 38.98,
+   "confidence": 1.0
+  },
+  {
+   "text": "Children",
+   "start": 21.56,
+   "end": 22.02,
+   "src_start": 39.08,
+   "src_end": 75.22,
+   "confidence": 1.0
+  },
+  {
+   "text": "learn",
+   "start": 22.02,
+   "end": 22.52,
+   "src_start": 75.22,
+   "src_end": 75.72,
+   "confidence": 1.0
+  },
+  {
+   "text": "a",
+   "start": 22.52,
+   "end": 22.72,
+   "src_start": 75.72,
+   "src_end": 75.92,
+   "confidence": 1.0
+  },
+  {
+   "text": "lot",
+   "start": 22.72,
+   "end": 22.94,
+   "src_start": 75.92,
+   "src_end": 76.14,
+   "confidence": 1.0
+  },
+  {
+   "text": "from",
+   "start": 22.94,
+   "end": 23.18,
+   "src_start": 76.14,
+   "src_end": 76.38,
+   "confidence": 1.0
+  },
+  {
+   "text": "what",
+   "start": 23.18,
+   "end": 23.46,
+   "src_start": 76.38,
+   "src_end": 76.66,
+   "confidence": 1.0
+  },
+  {
+   "text": "they",
+   "start": 23.46,
+   "end": 23.66,
+   "src_start": 76.66,
+   "src_end": 76.86,
+   "confidence": 1.0
+  },
+  {
+   "text": "see",
+   "start": 23.66,
+   "end": 23.92,
+   "src_start": 76.86,
+   "src_end": 77.12,
+   "confidence": 1.0
+  },
+  {
+   "text": "us",
+   "start": 23.92,
+   "end": 24.08,
+   "src_start": 77.12,
+   "src_end": 77.28,
+   "confidence": 1.0
+  },
+  {
+   "text": "do.",
+   "start": 24.08,
+   "end": 24.36,
+   "src_start": 77.28,
+   "src_end": 77.56,
+   "confidence": 1.0
+  },
+  {
+   "text": "Then",
+   "start": 24.56,
+   "end": 24.86,
+   "src_start": 77.76,
+   "src_end": 95.42,
+   "confidence": 1.0
+  },
+  {
+   "text": "teach",
+   "start": 24.86,
+   "end": 25.18,
+   "src_start": 95.42,
+   "src_end": 95.74,
+   "confidence": 1.0
+  },
+  {
+   "text": "them",
+   "start": 25.18,
+   "end": 25.48,
+   "src_start": 95.74,
+   "src_end": 96.04,
+   "confidence": 1.0
+  },
+  {
+   "text": "to",
+   "start": 25.48,
+   "end": 25.72,
+   "src_start": 96.04,
+   "src_end": 96.28,
+   "confidence": 1.0
+  },
+  {
+   "text": "notice",
+   "start": 25.72,
+   "end": 25.98,
+   "src_start": 96.28,
+   "src_end": 96.54,
+   "confidence": 1.0
+  },
+  {
+   "text": "when",
+   "start": 25.98,
+   "end": 26.3,
+   "src_start": 96.54,
+   "src_end": 96.86,
+   "confidence": 0.99
+  },
+  {
+   "text": "someone",
+   "start": 26.3,
+   "end": 26.6,
+   "src_start": 96.86,
+   "src_end": 97.16,
+   "confidence": 1.0
+  },
+  {
+   "text": "makes",
+   "start": 26.6,
+   "end": 26.92,
+   "src_start": 97.16,
+   "src_end": 97.48,
+   "confidence": 0.99
+  },
+  {
+   "text": "something",
+   "start": 26.92,
+   "end": 27.24,
+   "src_start": 97.48,
+   "src_end": 97.8,
+   "confidence": 1.0
+  },
+  {
+   "text": "kind",
+   "start": 27.24,
+   "end": 27.7,
+   "src_start": 97.8,
+   "src_end": 98.26,
+   "confidence": 1.0
+  },
+  {
+   "text": "for",
+   "start": 27.7,
+   "end": 27.92,
+   "src_start": 98.26,
+   "src_end": 98.48,
+   "confidence": 1.0
+  },
+  {
+   "text": "them.",
+   "start": 27.92,
+   "end": 28.18,
+   "src_start": 98.48,
+   "src_end": 98.74,
+   "confidence": 1.0
+  },
+  {
+   "text": "Mum",
+   "start": 28.18,
+   "end": 28.6,
+   "src_start": 98.74,
+   "src_end": 105.76,
+   "confidence": 0.18,
+   "review": "low ASR confidence"
+  },
+  {
+   "text": "made",
+   "start": 28.6,
+   "end": 29.1,
+   "src_start": 105.76,
+   "src_end": 106.26,
+   "confidence": 0.87
+  },
+  {
+   "text": "your",
+   "start": 29.1,
+   "end": 29.28,
+   "src_start": 106.26,
+   "src_end": 106.44,
+   "confidence": 0.92
+  },
+  {
+   "text": "food",
+   "start": 29.28,
+   "end": 29.6,
+   "src_start": 106.44,
+   "src_end": 106.76,
+   "confidence": 1.0
+  },
+  {
+   "text": "say",
+   "start": 29.6,
+   "end": 30.2,
+   "src_start": 106.76,
+   "src_end": 107.36,
+   "confidence": 0.4,
+   "review": "low ASR confidence"
+  },
+  {
+   "text": "thank",
+   "start": 30.2,
+   "end": 30.52,
+   "src_start": 107.36,
+   "src_end": 107.68,
+   "confidence": 0.95
+  },
+  {
+   "text": "you",
+   "start": 30.52,
+   "end": 30.82,
+   "src_start": 107.68,
+   "src_end": 107.98,
+   "confidence": 0.99
+  },
+  {
+   "text": "Dad",
+   "start": 30.82,
+   "end": 31.2,
+   "src_start": 107.98,
+   "src_end": 111.48,
+   "confidence": 0.75
+  },
+  {
+   "text": "helped",
+   "start": 31.2,
+   "end": 31.68,
+   "src_start": 111.48,
+   "src_end": 111.96,
+   "confidence": 0.95
+  },
+  {
+   "text": "you",
+   "start": 31.68,
+   "end": 31.94,
+   "src_start": 111.96,
+   "src_end": 112.22,
+   "confidence": 1.0
+  },
+  {
+   "text": "say",
+   "start": 31.94,
+   "end": 32.44,
+   "src_start": 112.22,
+   "src_end": 112.72,
+   "confidence": 0.96
+  },
+  {
+   "text": "thank",
+   "start": 32.44,
+   "end": 32.74,
+   "src_start": 112.72,
+   "src_end": 113.02,
+   "confidence": 1.0
+  },
+  {
+   "text": "you",
+   "start": 32.74,
+   "end": 33.0,
+   "src_start": 113.02,
+   "src_end": 113.28,
+   "confidence": 1.0
+  },
+  {
+   "text": "and",
+   "start": 33.0,
+   "end": 33.38,
+   "src_start": 113.28,
+   "src_end": 120.3,
+   "confidence": 0.93
+  },
+  {
+   "text": "remind",
+   "start": 33.38,
+   "end": 33.64,
+   "src_start": 120.3,
+   "src_end": 120.56,
+   "confidence": 1.0
+  },
+  {
+   "text": "them",
+   "start": 33.64,
+   "end": 34.04,
+   "src_start": 120.56,
+   "src_end": 120.96,
+   "confidence": 1.0
+  },
+  {
+   "text": "when",
+   "start": 34.04,
+   "end": 34.34,
+   "src_start": 120.96,
+   "src_end": 121.26,
+   "confidence": 0.98
+  },
+  {
+   "text": "you",
+   "start": 34.34,
+   "end": 34.46,
+   "src_start": 121.26,
+   "src_end": 121.38,
+   "confidence": 1.0
+  },
+  {
+   "text": "thank",
+   "start": 34.46,
+   "end": 34.72,
+   "src_start": 121.38,
+   "src_end": 121.64,
+   "confidence": 0.99
+  },
+  {
+   "text": "the",
+   "start": 34.72,
+   "end": 34.98,
+   "src_start": 121.64,
+   "src_end": 121.9,
+   "confidence": 0.99
+  },
+  {
+   "text": "people",
+   "start": 34.98,
+   "end": 35.22,
+   "src_start": 121.9,
+   "src_end": 122.14,
+   "confidence": 1.0
+  },
+  {
+   "text": "for",
+   "start": 35.22,
+   "end": 35.48,
+   "src_start": 122.14,
+   "src_end": 122.4,
+   "confidence": 1.0
+  },
+  {
+   "text": "something",
+   "start": 35.48,
+   "end": 35.84,
+   "src_start": 122.4,
+   "src_end": 122.76,
+   "confidence": 1.0
+  },
+  {
+   "text": "good",
+   "start": 35.84,
+   "end": 36.24,
+   "src_start": 122.76,
+   "src_end": 123.16,
+   "confidence": 0.97
+  },
+  {
+   "text": "they",
+   "start": 36.24,
+   "end": 36.46,
+   "src_start": 123.16,
+   "src_end": 123.38,
+   "confidence": 0.99
+  },
+  {
+   "text": "do",
+   "start": 36.46,
+   "end": 36.68,
+   "src_start": 123.38,
+   "src_end": 123.6,
+   "confidence": 0.99
+  },
+  {
+   "text": "for",
+   "start": 36.68,
+   "end": 36.92,
+   "src_start": 123.6,
+   "src_end": 123.84,
+   "confidence": 1.0
+  },
+  {
+   "text": "you",
+   "start": 36.92,
+   "end": 37.2,
+   "src_start": 123.84,
+   "src_end": 124.12,
+   "confidence": 1.0
+  },
+  {
+   "text": "Allah",
+   "start": 37.2,
+   "end": 38.04,
+   "src_start": 124.12,
+   "src_end": 124.96,
+   "confidence": 0.69
+  },
+  {
+   "text": "subhanahu",
+   "start": 38.04,
+   "end": 38.44,
+   "src_start": 124.96,
+   "src_end": 125.36,
+   "confidence": 0.54
+  },
+  {
+   "text": "wa",
+   "start": 38.44,
+   "end": 38.48,
+   "src_start": 125.36,
+   "src_end": 125.4,
+   "confidence": 0.9
+  },
+  {
+   "text": "ta",
+   "start": 38.48,
+   "end": 38.58,
+   "src_start": 125.4,
+   "src_end": 125.5,
+   "confidence": 0.95
+  },
+  {
+   "text": "'ala",
+   "start": 38.58,
+   "end": 38.62,
+   "src_start": 125.5,
+   "src_end": 125.54,
+   "confidence": 0.96
+  },
+  {
+   "text": "loves",
+   "start": 38.62,
+   "end": 38.92,
+   "src_start": 125.54,
+   "src_end": 125.84,
+   "confidence": 0.99
+  },
+  {
+   "text": "that",
+   "start": 38.92,
+   "end": 39.14,
+   "src_start": 125.84,
+   "src_end": 126.06,
+   "confidence": 0.47,
+   "review": "low ASR confidence"
+  },
+  {
+   "text": "from",
+   "start": 39.14,
+   "end": 39.44,
+   "src_start": 126.06,
+   "src_end": 126.36,
+   "confidence": 1.0
+  },
+  {
+   "text": "you",
+   "start": 39.44,
+   "end": 39.68,
+   "src_start": 126.36,
+   "src_end": 126.6,
+   "confidence": 1.0
+  },
+  {
+   "text": "and",
+   "start": 39.68,
+   "end": 40.02,
+   "src_start": 126.6,
+   "src_end": 137.74,
+   "confidence": 0.99
+  },
+  {
+   "text": "you",
+   "start": 40.02,
+   "end": 40.16,
+   "src_start": 137.74,
+   "src_end": 137.88,
+   "confidence": 1.0
+  },
+  {
+   "text": "are",
+   "start": 40.16,
+   "end": 40.32,
+   "src_start": 137.88,
+   "src_end": 138.04,
+   "confidence": 1.0
+  },
+  {
+   "text": "rewarded",
+   "start": 40.32,
+   "end": 40.8,
+   "src_start": 138.04,
+   "src_end": 138.52,
+   "confidence": 1.0
+  },
+  {
+   "text": "for",
+   "start": 40.8,
+   "end": 41.28,
+   "src_start": 138.52,
+   "src_end": 139.0,
+   "confidence": 1.0
+  },
+  {
+   "text": "doing",
+   "start": 41.28,
+   "end": 41.58,
+   "src_start": 139.0,
+   "src_end": 139.3,
+   "confidence": 1.0
+  },
+  {
+   "text": "what",
+   "start": 41.58,
+   "end": 41.82,
+   "src_start": 139.3,
+   "src_end": 139.54,
+   "confidence": 1.0
+  },
+  {
+   "text": "the",
+   "start": 41.82,
+   "end": 42.0,
+   "src_start": 139.54,
+   "src_end": 139.72,
+   "confidence": 1.0
+  },
+  {
+   "text": "Prophet",
+   "start": 42.0,
+   "end": 42.18,
+   "src_start": 139.72,
+   "src_end": 139.9,
+   "confidence": 0.97
+  },
+  {
+   "text": "sallallahu",
+   "start": 42.18,
+   "end": 42.78,
+   "src_start": 139.9,
+   "src_end": 140.5,
+   "confidence": 0.89
+  },
+  {
+   "text": "alayhi",
+   "start": 42.78,
+   "end": 43.02,
+   "src_start": 140.5,
+   "src_end": 140.74,
+   "confidence": 0.74
+  },
+  {
+   "text": "wa",
+   "start": 43.02,
+   "end": 43.12,
+   "src_start": 140.74,
+   "src_end": 140.84,
+   "confidence": 0.5
+  },
+  {
+   "text": "sallam",
+   "start": 43.12,
+   "end": 43.42,
+   "src_start": 140.84,
+   "src_end": 141.14,
+   "confidence": 0.98
+  },
+  {
+   "text": "taught",
+   "start": 43.42,
+   "end": 43.62,
+   "src_start": 141.14,
+   "src_end": 141.34,
+   "confidence": 0.94
+  },
+  {
+   "text": "us",
+   "start": 43.62,
+   "end": 43.82,
+   "src_start": 141.34,
+   "src_end": 141.54,
+   "confidence": 1.0
+  },
+  {
+   "text": "to",
+   "start": 43.82,
+   "end": 44.0,
+   "src_start": 141.54,
+   "src_end": 141.72,
+   "confidence": 0.99
+  },
+  {
+   "text": "do",
+   "start": 44.0,
+   "end": 44.18,
+   "src_start": 141.72,
+   "src_end": 141.9,
+   "confidence": 1.0
+  },
+  {
+   "text": "so",
+   "start": 44.18,
+   "end": 44.58,
+   "src_start": 141.9,
+   "src_end": 168.98,
+   "confidence": 0.97
+  },
+  {
+   "text": "today",
+   "start": 44.58,
+   "end": 45.0,
+   "src_start": 168.98,
+   "src_end": 169.4,
+   "confidence": 1.0
+  },
+  {
+   "text": "don't",
+   "start": 45.0,
+   "end": 45.58,
+   "src_start": 169.4,
+   "src_end": 169.98,
+   "confidence": 1.0
+  },
+  {
+   "text": "just",
+   "start": 45.58,
+   "end": 45.82,
+   "src_start": 169.98,
+   "src_end": 170.22,
+   "confidence": 1.0
+  },
+  {
+   "text": "ask",
+   "start": 45.82,
+   "end": 46.34,
+   "src_start": 170.22,
+   "src_end": 170.74,
+   "confidence": 1.0
+  },
+  {
+   "text": "your",
+   "start": 46.34,
+   "end": 46.54,
+   "src_start": 170.74,
+   "src_end": 170.94,
+   "confidence": 1.0
+  },
+  {
+   "text": "child",
+   "start": 46.54,
+   "end": 46.82,
+   "src_start": 170.94,
+   "src_end": 171.22,
+   "confidence": 1.0
+  },
+  {
+   "text": "to",
+   "start": 46.82,
+   "end": 47.04,
+   "src_start": 171.22,
+   "src_end": 171.44,
+   "confidence": 1.0
+  },
+  {
+   "text": "say",
+   "start": 47.04,
+   "end": 47.24,
+   "src_start": 171.44,
+   "src_end": 171.64,
+   "confidence": 1.0
+  },
+  {
+   "text": "thank",
+   "start": 47.24,
+   "end": 47.56,
+   "src_start": 171.64,
+   "src_end": 171.96,
+   "confidence": 1.0
+  },
+  {
+   "text": "you",
+   "start": 47.56,
+   "end": 47.8,
+   "src_start": 171.96,
+   "src_end": 172.2,
+   "confidence": 1.0
+  },
+  {
+   "text": "say",
+   "start": 47.8,
+   "end": 48.12,
+   "src_start": 172.2,
+   "src_end": 172.96,
+   "confidence": 0.98
+  },
+  {
+   "text": "it",
+   "start": 48.12,
+   "end": 48.28,
+   "src_start": 172.96,
+   "src_end": 173.12,
+   "confidence": 0.7
+  },
+  {
+   "text": "to",
+   "start": 48.28,
+   "end": 48.38,
+   "src_start": 173.12,
+   "src_end": 173.22,
+   "confidence": 1.0
+  },
+  {
+   "text": "them",
+   "start": 48.38,
+   "end": 48.56,
+   "src_start": 173.22,
+   "src_end": 173.4,
+   "confidence": 1.0
+  },
+  {
+   "text": "first",
+   "start": 48.56,
+   "end": 48.82,
+   "src_start": 173.4,
+   "src_end": 173.66,
+   "confidence": 1.0
+  }
+ ]
+}
